@@ -14,6 +14,10 @@ nlgql.Server();  // will start an express server on 8080 with /graphql endpoint
 console.log(nlgql.Schema());  // fold the schema into your own graphql server instead.  maybe this function signature could change?
 ```
 
+run the server:
+
+```node server.js```
+
 navigate to:
 
 http://localhost:8080/graphql
