@@ -1,7 +1,7 @@
 # node-lifx-graphql
-a graphql server wrapped around <a href="https://github.com/MariusRumpf/node-lifx">node-lifx</a>
-control your <a href="">lifx</a> bulbs with graphql
-use at your own risk.
+a graphql server wrapped around <a href="https://github.com/MariusRumpf/node-lifx">node-lifx</a></br>
+control your <a href="http://www.lifx.com/">lifx</a> bulbs with graphql</br>
+use at your own risk.</br>
 
 ```npm install --save node-lifx-graphql```
 
