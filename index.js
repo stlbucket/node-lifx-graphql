@@ -1,3 +1,8 @@
-module.exports = () => {
-  require('./src/graphql-server')
+module.exports = {
+  Server: () => {
+    require('./src/graphql-server')
+  },
+  Schema: () => {
+    require('./src/graphql-server/schema')
+  }
 };
