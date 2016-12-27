@@ -7,13 +7,16 @@ create a server file with contents:
 
 ##server.js##
 ```
-require('node-lifx-graphql')();
+const nlgql = require('node-lifx-graphql');
+
+nlgql.Server();  // will start an express server on 8080 with /graphql endpoint
+
+console.log(nlgql.Schema());  // fold the schema into your own graphql server instead.  maybe this function signature could change?
 ```
 
 navigate to:
 
 http://localhost:8080/graphql
-
 
 play with some queries:
 
