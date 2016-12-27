@@ -85,7 +85,7 @@ mutation {
 ```
 mutation {
   setLightColor(
-    lightLabel: "light bucket",
+    lightLabel: "[YOUR LIGHT NAME]",
     hue: 199,
     saturation: 99,
     brightness: 88,
