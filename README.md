@@ -22,7 +22,7 @@ run the server:
 
 navigate to:
 
-http://localhost:8080/graphql
+<a href="http://localhost:8080/node-lifx-graphql">http://localhost:8080/node-lifx-graphql</a>
 
 play with some queries:
 
